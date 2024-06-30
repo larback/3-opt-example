@@ -17,7 +17,7 @@ void print(std::vector<int> s){
   for (int i=0;i<s.size();++i)
     cout << s[i] << " ";
   cout << endl;
-  return 0l;
+  // return 0l;
 }
 
 void movimento1(std::vector<int> solution, std::vector<int> &temp, int p1, int p2, int p3){
