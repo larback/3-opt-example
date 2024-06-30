@@ -11,7 +11,7 @@
 using namespace std;
 
 std::vector<int> myvector, v2,fixados;
-vector<vector<int>> permutacoes;
+vector<vector<int> > permutacoes;
 
 void print(std::vector<int> s){
   for (int i=0;i<s.size();++i)
@@ -157,7 +157,6 @@ void three_opt(std::vector<int> &solution){
   for (int i=0;i<solution.size();++i){
     for (int j=i+1;j<solution.size();++j){
       for (int k=j+1;k<solution.size();++k){
-        s++;
         movimento1(solution, temp, i,j,k);
         cout << "1:";
         print(temp); 
